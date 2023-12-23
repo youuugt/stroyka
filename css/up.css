@@ -1,0 +1,23 @@
+.up__content {
+  margin-top: 142px;
+}
+.up__item h1 {
+  color: #212b31;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+}
+.up__item p {
+  color: #72787d;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 1015px;
+  line-height: 30px;
+}
+.people {
+  margin-top: 40px;
+  max-width: 100%;
+}

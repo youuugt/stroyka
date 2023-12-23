@@ -1,0 +1,30 @@
+.logos {
+  position: relative;
+  margin-left: 334px;
+  margin-right: 334px;
+  margin: 0 auto;
+}
+.logos__content {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 101px;
+  
+}
+.logo p {
+  color: #72787d;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  width: 139px;
+}
+@media screen and (max-width: 1313px) {
+  .logos {
+    display: none;
+    
+
+  }
+}
+  

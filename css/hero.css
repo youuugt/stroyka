@@ -1,0 +1,92 @@
+.hero__title {
+  color: #212b31;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 400;
+  max-width: 818px;
+  margin: 0 auto;
+}
+.hero {
+  margin-top: 100px;
+}
+.button1 {
+  cursor: pointer;
+  color: #fff;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 9px 20px;
+  border-radius: 4px;
+  border: 1px solid #212b31;
+  background: #212b31;
+  transition: 0.3s;
+}
+.button1:hover {
+  color: #212b31;
+  background: #fff;
+}
+.button2 {
+  cursor: pointer;
+  color: #212b31;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 9px 20px;
+  border-radius: 4px;
+  border: 1px solid #dadedf;
+  background: #ffffff;
+  transition: 0.3s;
+}
+.button2:hover {
+  color: #212b31;
+  background: #ffde79;
+}
+.hero__btns {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 30px;
+}
+.images {
+  text-align: center;
+  margin-top: 88px;
+}
+.images img {
+  max-width: 100%;
+}
+.cars {
+  margin-top: 36px;
+}
+@media screen and (max-width: 706px) {
+  .hero__title {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .hero__title {
+    font-size: 28px
+  }
+}
+@media screen and (max-width: 386px) {
+  .button1 {
+    font-size: 14px;
+  }
+  .button2 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 379px) {
+  .button1 {
+    font-size: 12px;
+  }
+  .button2 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .button1 {
+    font-size: 10px;
+  }
+  .button2 {
+    font-size: 10px;
+  }
+}

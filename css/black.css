@@ -1,0 +1,127 @@
+.black {
+  background-color: #212b31;
+  padding-top: 143px;
+  padding-bottom: 118px;
+  margin-top: 144px;
+  margin-bottom: 143px;
+  position: relative;
+}
+.black__info h2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+}
+.black__marker {
+  padding-left: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.black__marker h3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.black__marker h3:before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border-radius: 100%;
+  left: -32px;
+  top: 8px;
+}
+.black__marker p {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: Inter;
+  font-size: 16px;
+}
+.black__btn {
+  font-size: 18px;
+  padding: 13px 25px;
+  border: none;
+  border-radius: 4px;
+  font-family: Inter;
+  border: 1px solid #dadedf;
+}
+.black__btn.white-btn {
+  color: #212b31;
+  background: #fff;
+}
+.black__btn.white-btn:hover {
+  color: #fff;
+  background: #212b31;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.black__btn.black-btn {
+  color: #fff;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.black__btn.black-btn:hover {
+  color: #212b31;
+  background: #fff;
+}
+
+.black__btns {
+  display: flex;
+  gap: 16px;
+}
+.black__markers {
+  max-width: 549px;
+}
+.black__img {
+  position: absolute;
+  right: 0;
+  top: 143px;
+}
+.black__item {
+  text-align: center;
+  max-width: 340px;
+}
+.black__item h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+.black__item p {
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 24px;
+}
+.black__bottom {
+  display: flex;
+  margin-top: 127px;
+  gap: 18px;
+}
+@media screen and (max-width: 1360px) {
+  .black__img {
+    display: none;
+  }
+}
+@media screen and (max-width: 778px) {
+  .black__bottom {
+   flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1313px) {
+  .swiper {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .black__btns {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

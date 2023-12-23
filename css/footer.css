@@ -1,0 +1,161 @@
+.footer {
+  margin-top: 150px;
+  position: relative;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  gap: 85px;
+}
+.footer__content {
+  width: 299px;
+}
+.little__logo {
+  position: absolute;
+  top: 20px;
+}
+.footer__name {
+  color: #212b31;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+  top: 5px;
+  left: 28px;
+}
+.footer__content a {
+  color: #72787d;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.footer__content p {
+  color: #72787d;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  width: 221px;
+}
+.footer__content__ p {
+  color: #72787d;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  width: 221px;
+}
+.footer__content__ h4 {
+  color: #212b31;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  width: 111px;
+}
+.footer__content__first a {
+  color: #72787d;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.footer__content__first p {
+  color: #72787d;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  width: 221px;
+}
+.footer__content__first h4 {
+  color: #212b31;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  width: 111px;
+}
+.footer__content h4 {
+  color: #212b31;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  width: 111px;
+}
+.facebook {
+  display: flex;
+  margin-top: 20px;
+}
+.street {
+  box-sizing: border-box;
+  min-width: 350px;
+  position: absolute;
+  top: 75px;
+}
+.abyss {
+  width: 1056px;
+  height: 90px;
+  background: transparent;
+  margin-top: 160px;
+  border-top: 20px;
+  border-color: #dadedf;
+  position: relative;
+}
+.copyright {
+  color: #72787d;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  float: left;
+}
+.kok {
+  text-decoration: none;
+  color: #72787d;
+}
+.politics {
+  color: #72787d;
+  text-align: end;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 800px;
+}
+.line {
+  width: 1056px;
+  height: 1px;
+  background: #dadedf;
+  position: absolute;
+  top: 340px;
+}
+@media screen and (max-width: 884px) {
+  .footer__content {
+    display: none;
+    justify-content: center;
+  }
+  .footer__content__first {
+    align-items: center;
+  }
+  .line {
+    display: none;
+  }
+  .politics {
+    display: none;
+  }
+  .copyright {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 1310px) {
+
+}
+@media screen and (max-width: 1190px) {
+  .footer__content__ {
+    display: none;
+  }
+}
+@media screen and (max-width: 1155px) {
+  .abyss {
+    margin: 0;
+    max-width: 100%;
+  }
+}
